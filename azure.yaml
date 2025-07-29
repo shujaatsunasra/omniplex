@@ -1,0 +1,8 @@
+name: omniplex
+services:
+  omniplex-web:
+    project: ./
+    host: appservice
+    language: ts
+infra:
+  provider: bicep

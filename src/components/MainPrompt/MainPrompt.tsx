@@ -235,6 +235,30 @@ const MainPrompt = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>Where Knowledge Evolves</div>
+      <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
+        <button
+          onClick={() => router.push('/pricing')}
+          style={{
+            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            color: 'white',
+            border: 'none',
+            padding: '8px 16px',
+            borderRadius: '20px',
+            fontSize: '14px',
+            fontWeight: '600',
+            cursor: 'pointer',
+            transition: 'transform 0.2s ease',
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = 'scale(1.05)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
+        >
+          🚀 Upgrade to Pro - $10/month
+        </button>
+      </div>
       <div className={styles.promptContainer}>
         <textarea
           placeholder="Ask anything..."
