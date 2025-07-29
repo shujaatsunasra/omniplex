@@ -112,8 +112,8 @@ export default function Pricing() {
           {/* Free Plan */}
           <div className="bg-white rounded-lg shadow-xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Free Plan</h3>
-            <div className="text-4xl font-bold text-gray-900 mb-6">
-              $0<span className="text-lg text-gray-500">/month</span>
+            <div className="text-4xl font-bold text-purple-600 mb-6">
+              $0<span className="text-lg text-purple-600">/month</span>
             </div>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center">
@@ -136,7 +136,7 @@ export default function Pricing() {
               </li>
             </ul>
             <button 
-              className="w-full bg-gray-300 text-gray-700 font-bold py-3 px-4 rounded-lg cursor-not-allowed"
+              className="w-full bg-gray-300 text-purple-600 font-bold py-3 px-4 rounded-lg cursor-not-allowed"
               disabled
             >
               Current Plan
@@ -151,8 +151,8 @@ export default function Pricing() {
               </span>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Pro Plan</h3>
-            <div className="text-4xl font-bold text-gray-900 mb-6">
-              $10<span className="text-lg text-gray-500">/month</span>
+            <div className="text-4xl font-bold text-purple-600 mb-6">
+              $10<span className="text-lg text-purple-600">/month</span>
             </div>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center">
